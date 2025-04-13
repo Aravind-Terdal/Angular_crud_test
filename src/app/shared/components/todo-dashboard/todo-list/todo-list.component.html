@@ -4,7 +4,7 @@
     *ngFor="let todo of todosData"
   >
     {{ todo.todoItem }}
-    <div class="div">
+    <div class="div my-auto">
       <button mat-raised-button color="accent" class="mr-3">Edit</button>
       <button mat-raised-button color="warn" (click)="onRemoveTodo(todo)">
         Remove
