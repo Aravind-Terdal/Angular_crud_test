@@ -7,6 +7,7 @@ import { TodoDashboardComponent } from './shared/components/todo-dashboard/todo-
 import { TodoFormComponent } from './shared/components/todo-dashboard/todo-form/todo-form.component';
 import { TodoListComponent } from './shared/components/todo-dashboard/todo-list/todo-list.component';
 import { FormsModule } from '@angular/forms';
+import {MatButtonModule} from '@angular/material/button';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { FormsModule } from '@angular/forms';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    FormsModule
+    FormsModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

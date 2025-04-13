@@ -2,8 +2,8 @@
     <li class="list-group-item d-flex justify-content-between" *ngFor="let todo of todosData">
         {{todo.todoItem}}
         <div class="div">
-            <button class="btn btn-info mr-3">Edit</button>
-            <button class="btn btn-danger" (click)="onRemoveTodo(todo)">Remove</button>
+            <button mat-raised-button color="primary" class="mr-3">Edit</button>
+            <button mat-raised-button color="warn" (click)="onRemoveTodo(todo)">Remove</button>
         </div>
     </li>
 </ul>
